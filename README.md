@@ -92,8 +92,8 @@ After
 
 home.page.html
 
-Added attribute
+Added attributes 
 
-    expand="block"
+    expand="block" size="large"
 
 to the ion-buttons.
