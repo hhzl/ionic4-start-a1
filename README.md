@@ -37,6 +37,7 @@ home.page.html
 
 
 Add about-page
+
      ionic generate page pages/about-page
 
 home.page.html
