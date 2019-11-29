@@ -53,8 +53,6 @@ Before
 
 After
     
-
-
     <ion-header>
         <ion-toolbar>
         <ion-buttons slot="end">
@@ -72,6 +70,7 @@ After
 about-page.page.html
 
 Before
+
     <ion-header>
       <ion-toolbar>
         <ion-title>About ionic4-start-a1</ion-title>
@@ -79,6 +78,7 @@ Before
     </ion-header>
 
 After
+
     <ion-header>
       <ion-toolbar color="primary">
         <ion-title>About ionic4-start-a1</ion-title>
@@ -91,5 +91,7 @@ After
 home.page.html
 
 Added attribute
+
     expand="block"
+
 to the ion-buttons.
