@@ -16,6 +16,10 @@ const routes: Routes = [
     path: 'practice-mode',
     loadChildren: () => import('./pages/practice-mode/practice-mode.module').then( m => m.PracticeModePageModule)
   },
+  {
+    path: 'about-page',
+    loadChildren: () => import('./pages/about-page/about-page.module').then( m => m.AboutPagePageModule)
+  },
 ];
 
 @NgModule({

@@ -1,17 +1,25 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic 4 start a1
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+    <ion-buttons slot="end">
+        <span class="iconify" data-icon="ion:help-circle-outline" data-inline="false"></span>
+      <button ion-button routerLink="/about-page" style="float: left; top: 10px; padding: 10px; width: 100%;"> 
+        <ion-icon name="help-circle-outline" style="font-size: 25px;"></ion-icon>
+      </button>
+    </ion-buttons>
+    
+    <ion-title>Ionic 4 start a1</ion-title>
+    </ion-toolbar>
 </ion-header>
+
 
 <ion-content>
   <div class="ion-padding">
 Home    <p>Ionic documentation <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> </p>
 
-<ion-button routerLink="/choose-mode" routerDirection="forward">choose mode</ion-button>
-<ion-button routerLink="/learn-mode" routerDirection="forward">learn mode</ion-button>
-<ion-button routerLink="/practice-mode" routerDirection="forward">practice mode</ion-button>
+<ion-button routerLink="/choose-mode" routerDirection="forward" expand="block">choose mode</ion-button>
+
+<ion-button routerLink="/learn-mode" routerDirection="forward" expand="block">learn mode</ion-button>
+
+<ion-button routerLink="/practice-mode" routerDirection="forward" expand="block">practice mode</ion-button>
   </div>
 </ion-content>
