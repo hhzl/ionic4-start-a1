@@ -97,3 +97,8 @@ Added attributes
     expand="block" size="large"
 
 to the ion-buttons.
+
+
+Added to about-page.page.html
+        
+    <ion-img src="/assets/shapes.svg"></ion-img>
