@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar color="primary">
-    <ion-title>learn-mode</ion-title>
+    <ion-title>learn-mode-page</ion-title>
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
     </ion-buttons>
@@ -10,5 +10,18 @@
 
 
 <ion-content>
-ion-content of learn-mode page
+<ion-content padding class="ionicContent">
+<h1>{{ word }}</h1>
+<div><img src="{{itemImageUrlPath}}{{itemImageFileName}}"></div>
+<h1>{{ translate }}</h1>
 </ion-content>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Dictionary</ion-title>
+      <ion-button slot="end" (click)="updateMyValue()">
+<ion-icon size="large" name="arrow-round-forward"></ion-icon></ion-button>
+  </ion-toolbar>
+</ion-footer>
